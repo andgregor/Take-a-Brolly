@@ -17,7 +17,7 @@ Upon first run a new default TakeABrolly.ini file will be created in the applica
 ## Settings ##
 [SETTINGS]
 
-service=false //Runs the console application without a GUI.
+service=false //Runs the console application with or without a GUI.
 
 apikey= //Add your open weather API key here: [Sign Up Here](https://home.openweathermap.org/users/sign_up "Sign Up Here")
 
