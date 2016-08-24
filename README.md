@@ -17,7 +17,7 @@ Upon first run a new default TakeABrolly.ini file will be created in the applica
 ## Settings ##
 [SETTINGS]
 
-service=false //Runs the console application with or without a visible console.
+service=false //Runs the console application without a GUI.
 
 apikey= //Add your open weather API key here: [Sign Up Here](https://home.openweathermap.org/users/sign_up "Sign Up Here")
 
@@ -56,6 +56,19 @@ ip= //IP or FQDN of mail server to send the report through.
 sender= //Sender email address.
 
 pass= //Password for email address (if required). 
+
+## Known Issues ##
+
+Sometimes the xml is malformed, Currently the old file is being deleted before update. Possibly coming from the API response / transport method.
+
+## To Do ##
+
+- Calendar / GPS App integration to know your location
+- Further nice formatting of the email.
+- Full weather reports via email.
+- Add further program error capture.
+- Add descriptions for API error code responses.
+- Trace malformed API issue.
 
 ## Support ##
 
